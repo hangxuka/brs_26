@@ -18,6 +18,21 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  app_name: "Book Reviewing System"
+  home: "Home"
+  help: "Help"
+  about: "About"
+  contact: "Contact"
+  log_in: "Log in"
+  welcome_msg: "Welcome to Framgia BRS26"
+  sign_up_now: "Sign up now!"
+  about_msg: "This is the about page"
+  help_msg: "This is the help page"
+  author_name: "by HHL"
+  static_pages:
+    home:
+      title: "Wellcome to Book Reviewing System"
+      signin: "Sign in now!"
+      introduce: "This is the home page"
+      linkto_framgia: "Framgia Vietnam"
