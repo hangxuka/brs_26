@@ -36,3 +36,15 @@ en:
       signin: "Sign in now!"
       introduce: "This is the home page"
       linkto_framgia: "Framgia Vietnam"
+  admin:
+    categories:
+      success: "Create Category Success!"
+      fail: "Cannot Create Category!"
+      add: "Add Category"
+      create: "Create new category"
+      all: "All Category"
+      category_name: "Category Name"
+      add_more_category: "Add more Category"
+  shared:
+    error: "error"
+    the_form_contain: "The form contains"
