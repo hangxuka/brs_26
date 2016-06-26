@@ -47,6 +47,9 @@ en:
       setting: "Settings"
       logout: "Log out"
       login: "Log in"
+      manage: "Manage"
+      list_book: "List books"
+      list_request: "List requests"
   books:
     index:
       all: "All Books"
@@ -78,6 +81,20 @@ en:
         create_book: "Create a new book."
       index:
       add: "Add a new book"
+    requests:
+      table:
+        id: "ID"
+        content: "Content"
+        status: "Status"
+        user: "Username sents request"
+        edit: "Edit"
+        delete: "Delete"
+        detail: "Detail"
+        accepted: "Accepted request"
+        denied: "Denied request"
+        waitting: "Waitting"
+      sent_email: "Sent email for user"
+
     messages:
       confirm: "Are you sure?"
 

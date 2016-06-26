@@ -12,6 +12,7 @@ Rails.application.routes.draw do
     root "books#index"
     resources :categories
     resources :books, only: [:index, :create, :new]
+    resources :requests, only: [:index]
   end
   resources :books
 end
