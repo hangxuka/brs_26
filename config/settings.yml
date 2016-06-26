@@ -10,3 +10,4 @@ admin:
     size: "150x150"
     url: "/assets/dac-nhan-tam.jpg"
     pic_size: 5
+  detail_width: "100%"

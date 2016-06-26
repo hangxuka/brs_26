@@ -48,10 +48,18 @@ en:
       logout: "Log out"
       login: "Log in"
   books:
+    category: "Category"
+    description: "Description"
+    review: "Review"
+    reply: "Comment"
     index:
       all: "All Books"
       title: "Title contains"
       search: "Search"
+
+    show:
+      error: "Cannot find Book!"
+
   admin:
     categories:
       success: "Create Category Success!"
