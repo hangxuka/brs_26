@@ -61,9 +61,42 @@ en:
       all: "All Category"
       category_name: "Category Name"
       add_more_category: "Add more Category"
+
+    books:
+      table:
+        id: "ID"
+        picture: "Picture"
+        title: "Title"
+        description: "Description"
+        author: "Author"
+        edit: "Edit"
+        delete: "Delete"
+        number_page: "Number page"
+        rate_avg: "Rate average"
+        publish_date: "Publish date"
+      new:
+        create_book: "Create a new book."
+      index:
+      add: "Add a new book"
+    messages:
+      confirm: "Are you sure?"
+
+  submit: "Submit"
+
+  application:
+    general:
+      date_format: "YYYY/MM/DD"
+    flash:
+      books:
+        create_success: "New book has been created."
+
   shared:
     error: "error"
     the_form_contain: "The form contains"
+
+  models:
+    book:
+      validate_picture: "Should be less than 5MB."
 
   devise:
     registrations:
