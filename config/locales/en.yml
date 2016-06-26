@@ -22,6 +22,7 @@ en:
   app_name: "Book Reviewing System"
   home: "Home"
   help: "Help"
+  book: "Books"
   about: "About"
   contact: "Contact"
   log_in: "Log in"
@@ -46,7 +47,9 @@ en:
       setting: "Settings"
       logout: "Log out"
       login: "Log in"
-
+  books:
+    index:
+      all: "All Books"
   admin:
     categories:
       success: "Create Category Success!"
