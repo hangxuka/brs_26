@@ -1,5 +1,6 @@
 class BooksController < ApplicationController
   def index
-    @books = Book.page(params[:page]).per Settings.per_page
+    @search = Book.search params[:q]
+    @books = @search.result.page(params[:page]).per Settings.per_page
  end
 end

@@ -50,6 +50,8 @@ en:
   books:
     index:
       all: "All Books"
+      title: "Title contains"
+      search: "Search"
   admin:
     categories:
       success: "Create Category Success!"
