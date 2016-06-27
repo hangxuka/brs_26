@@ -147,3 +147,15 @@ input {
     font-weight: normal;
   }
 }
+/* Admin books */
+#btntop{
+  float: right;
+  width: 180px;
+ }
+#btntop a {
+  position: fixed;
+  bottom: 450px;
+  right: 5px;
+  z-index: 99;
+}
+/* Ket thuc Admin books */
