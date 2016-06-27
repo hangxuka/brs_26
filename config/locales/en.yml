@@ -47,6 +47,8 @@ en:
       setting: "Settings"
       logout: "Log out"
       login: "Log in"
+      funtion: "Function"
+      add_category: "Add Category"
       manage: "Manage"
       list_book: "List books"
       list_request: "List requests"
@@ -59,7 +61,6 @@ en:
       all: "All Books"
       title: "Title contains"
       search: "Search"
-
     show:
       error: "Cannot find Book!"
 
@@ -72,6 +73,14 @@ en:
       all: "All Category"
       category_name: "Category Name"
       add_more_category: "Add more Category"
+      category_updated: "Category Updated"
+      delete: "Category Deleted"
+      edit_category: "Edit Category"
+      save: "Save Changes"
+      edit: "Edit"
+      sure: "Are you sure?"
+      remove: "Delete"
+      please_login: "Please Login"
 
     books:
       table:
