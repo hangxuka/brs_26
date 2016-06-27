@@ -94,10 +94,16 @@ en:
         number_page: "Number page"
         rate_avg: "Rate average"
         publish_date: "Publish date"
+        show: "Show"
       new:
         create_book: "Create a new book."
       index:
       add: "Add a new book"
+      edit:
+        edit_book: "Edit a book"
+        exit: "Exit"
+        back: "Back"
+
     requests:
       table:
         id: "ID"
@@ -123,7 +129,10 @@ en:
     flash:
       books:
         create_success: "New book has been created."
-
+        updated_success: "Book has been updated."
+        updated_error: "Book has not been updated."
+        destroy_success: "Book has been destroy."
+        destroy_error: "Book has not been destroy."
   shared:
     error: "error"
     the_form_contain: "The form contains"

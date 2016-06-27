@@ -41,11 +41,13 @@
         <td><%= book.number_page %></td>
         <td><%= book.rate_avg %></td>
         <td>
-          <%= link_to t("admin.books.table.edit"), "#",
+          <%= link_to t("admin.books.table.show"), admin_book_path(book),
             class: "btn btn-primary" %>
-          <%= link_to t("admin.books.table.delete"), "#",
+          <%= link_to t("admin.books.table.edit"), edit_admin_book_path(book),
+            class: "btn btn-primary" %>
+          <%= link_to t("admin.books.table.delete"), admin_book_path(book),
             method: :delete, data: {confirm: t("admin.messages.confirm")},
-              class: "btn btn-danger" %>
+            class: "btn btn-danger" %>
         </td>
       </tr>
     <% end %>
