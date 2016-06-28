@@ -121,6 +121,7 @@ ActiveRecord::Schema.define(version: 20160627103639) do
     t.string   "last_sign_in_ip"
     t.string   "name"
     t.integer  "role",                   default: 1
+    t.string   "avatar"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

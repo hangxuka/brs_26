@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     resources :categories
     resources :books
     resources :requests, only: [:index]
+    resources :users, only: [:index, :new, :create]
   end
   resources :books
 end
