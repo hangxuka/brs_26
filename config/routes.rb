@@ -17,4 +17,5 @@ Rails.application.routes.draw do
   end
   resources :books
   resources :users, only: [:index]
+  resources :requests, only: [:index]
 end

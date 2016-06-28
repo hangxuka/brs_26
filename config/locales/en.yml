@@ -54,6 +54,8 @@ en:
       list_request: "List requests"
       list_users: "List users"
       user: "All Users"
+      my_requests: "My requests"
+
   books:
     category: "Category"
     description: "Description"
@@ -65,6 +67,16 @@ en:
       search: "Search"
     show:
       error: "Cannot find Book!"
+  requests:
+    table:
+      content: "Content"
+      id: "ID"
+      index: "Index"
+      show: "Show"
+      delete: "Delete"
+      create_at: "Create at"
+    new:
+      sent: "Sent my request"
 
   admin:
     categories:
