@@ -34,3 +34,6 @@ end
     content: "Noi dung review" + (r+1).to_s,
     rating: 5
 end
+
+User.create!(name: "haohhl", email: "123@gmail.com",
+  password: "foobar", password_confirmation: "foobar", role: 0)
