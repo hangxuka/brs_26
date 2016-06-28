@@ -37,3 +37,11 @@ end
 
 User.create!(name: "haohhl", email: "123@gmail.com",
   password: "foobar", password_confirmation: "foobar", role: 0)
+
+5.times do |u|
+  User.create! name: "User" + (u+1).to_s,
+  email: "user#{u+1}@gmail.com",
+  password: "123456",
+  role: 1,
+  avatar: "/assets/avata.jpg"
+end
