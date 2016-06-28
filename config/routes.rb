@@ -16,6 +16,6 @@ Rails.application.routes.draw do
     resources :users
   end
   resources :books
-  resources :users, only: [:index]
+  resources :users, only: [:index, :edit, :update]
   resources :requests, only: [:index]
 end

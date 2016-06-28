@@ -12,7 +12,7 @@
           <td><%= link_to user.name, "#" %></td>
           <td>
             <% if user.avatar.present? %>
-              <%= link_to image_tag(user.avatar, size: Setting.users.size), "#" %>
+              <%= link_to image_tag(user.avatar, size: Settings.users.size), "#" %>
             <% else %>
               <%= link_to image_tag(Settings.users.url, size: Settings.users.size),
                 "#" %>
