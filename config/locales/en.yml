@@ -55,7 +55,8 @@ en:
       list_users: "List users"
       user: "All Users"
       my_requests: "My requests"
-
+  users:
+    submit: "Submit"
   books:
     category: "Category"
     description: "Description"
