@@ -52,6 +52,9 @@
               </ul>
             </li>
           <% else %>
+            <li>
+              <%= link_to t("static_pages.header.my_requests"), requests_path %>
+            </li>
             <li><%= link_to t(:book), books_path %></li>
           <% end %>
 
