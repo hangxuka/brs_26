@@ -95,8 +95,13 @@ en:
         avatar: "Avatar"
         edit: "Edit"
         delete: "Delete"
+        show: "Show"
       new:
         create: "Create new user"
+      edit:
+        edit_user: "Edit user"
+        edit: "Edit"
+        back: "Back"
     books:
       table:
         id: "ID"
@@ -150,6 +155,11 @@ en:
         destroy_error: "Book has not been destroy."
       users:
         success: "New user has been created!"
+        updated_success: "User has been updated."
+        update_error: "User has not been update"
+        destroy_success: "User has been destroy"
+        destroy_error: "User has not been destroy"
+
   shared:
     error: "error"
     the_form_contain: "The form contains"
