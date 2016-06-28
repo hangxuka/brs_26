@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   namespace :admin do
     root "categories#index"
     resources :categories
-    resources :books, only: [:index, :create, :new]
+    resources :books
     resources :requests, only: [:index]
   end
   resources :books

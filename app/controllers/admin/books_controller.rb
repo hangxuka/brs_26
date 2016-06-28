@@ -1,5 +1,6 @@
 class Admin::BooksController < ApplicationController
-  before_action :load_category, only: [:new]
+  load_and_authorize_resource
+  before_action :load_category, only: [:new, :edit, :update]
 
   def index
     @books = Book.page(params[:page]).per Settings.admin.books.page
@@ -17,6 +18,31 @@ class Admin::BooksController < ApplicationController
     else
       render :new
     end
+  end
+
+  def show
+  end
+
+  def edit
+  end
+
+  def update
+    if @book.update_attributes book_params
+      flash[:success] = t "application.flash.books.updated_success"
+      redirect_to admin_book_path @book
+    else
+      flash[:error] = t "application.flash.books.updated_error"
+      render :edit
+    end
+  end
+
+  def destroy
+    if @book.destroy
+      flash[:success] = t "application.flash.books.destroy_success"
+    else
+      flash[:error] = t "application.flash.books.destroy_fail"
+    end
+    redirect_to admin_books_path
   end
 
   private
