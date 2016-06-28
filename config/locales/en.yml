@@ -76,8 +76,14 @@ en:
       show: "Show"
       delete: "Delete"
       create_at: "Create at"
+      add_request: "Add new a request"
     new:
-      sent: "Sent my request"
+      sent: "Sent"
+      title: "New your request"
+      content: "Input content your request"
+    show:
+      title: "Content your request"
+
 
   admin:
     categories:
@@ -172,6 +178,11 @@ en:
         update_error: "User has not been update"
         destroy_success: "User has been destroy"
         destroy_error: "User has not been destroy"
+      user_requests:
+        create_success: "My request has been sent to admin."
+        destroy_success: "My request has been destroy."
+        destroy_fail: "My request has not been destroy."
+
 
   shared:
     error: "error"

@@ -17,5 +17,5 @@ Rails.application.routes.draw do
   end
   resources :books
   resources :users, only: [:index, :edit, :update]
-  resources :requests, only: [:index]
+  resources :requests, except: [:edit, :update]
 end

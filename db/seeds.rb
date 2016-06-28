@@ -1,5 +1,5 @@
 User.create(name: "admin", email: "admin@gmail.com",
-  password: "123456", password_confirmation: "123456")
+  password: "123456", password_confirmation: "123456", role: 0)
 Category.create(name: "Truyen ngan")
 
 10.times do |n|

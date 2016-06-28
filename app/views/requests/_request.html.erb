@@ -4,10 +4,11 @@
     <td><%= request.content %></td>
     <td><%= request.created_at %></td>
     <td>
-      <%= link_to t("requests.table.show"), "#",
+      <%= link_to t("requests.table.show"), request_path(request),
         class: "btn btn-primary" %>
-      <%= link_to t("requests.table.delete"), "#", method: :delete,
-        data: {confirm: t("admin.messages.confirm")}, class: "btn btn-danger" %>
+      <%= link_to t("requests.table.delete"), request_path(request),
+        method: :delete, data: {confirm: t("admin.messages.confirm")},
+        class: "btn btn-danger" %>
     </td>
   </tr>
 <% end %>
