@@ -8,6 +8,7 @@ class Ability
     else
       can :read, :all
       can [:edit, :update], User
+      can [:create, :destroy], Request
     end
   end
 end
