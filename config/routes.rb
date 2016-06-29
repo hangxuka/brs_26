@@ -23,6 +23,8 @@ Rails.application.routes.draw do
   end
   resources :books
   resources :users, except: [:new, :destroy, :create]
+  resources :marks, only: [:create, :destroy, :new]
+  resources :users, only: [:index, :edit, :update]
   resources :requests, except: [:edit, :update]
   resources :reviews, except: [:show, :new, :index]
   resources :relationships, only: [:create, :destroy]

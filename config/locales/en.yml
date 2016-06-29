@@ -58,6 +58,9 @@ en:
   users:
     submit: "Submit"
   books:
+    mark_button:
+      reading: "Reading"
+      read: "Read"
     category: "Category"
     description: "Description"
     review: "Review"
@@ -68,6 +71,7 @@ en:
       search: "Search"
     show:
       error: "Cannot find Book!"
+      mark: "Mark read!"
   requests:
     table:
       content: "Content"
@@ -199,6 +203,7 @@ en:
         updated_error: "Book has not been updated."
         destroy_success: "Book has been destroy."
         destroy_error: "Book has not been destroy."
+        reading: "Reading"
       users:
         success: "New user has been created!"
         updated_success: "User has been updated."
