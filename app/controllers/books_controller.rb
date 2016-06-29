@@ -1,5 +1,6 @@
 class BooksController < ApplicationController
   load_and_authorize_resource
+  before_action :load_categories, only: [:index]
 
   def index
     @search = Book.search params[:q]
@@ -18,5 +19,9 @@ class BooksController < ApplicationController
   private
   def load_reviews
     @reviews = @book.reviews
+  end
+
+  def load_categories
+    @categories = Category.all
   end
 end
