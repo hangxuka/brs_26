@@ -84,6 +84,23 @@ en:
     show:
       title: "Content your request"
 
+  reviews:
+    user_review: "List reviews of book "
+    created_by: "Created by"
+    edit: "Edit"
+    delete: "Delete"
+    comment: "Comment"
+    confirm: "Are you sure?"
+    rate: "Rate: "
+    content: "Content review: "
+    validate_rating: "You must rate with: rate > 0 and rate <10 "
+    input_rate: "Input 0 < number <= 10 "
+    review_form:
+      submit: "Submit"
+    messages:
+      create_success: "My review has been sent."
+      create_fail: "My review has not been sent."
+
 
   admin:
     categories:
