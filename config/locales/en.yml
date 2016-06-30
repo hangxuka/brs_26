@@ -86,6 +86,7 @@ en:
   reviews:
     user_review: "List reviews of book "
     created_by: "Created by"
+    created_at: " at"
     edit: "Edit"
     delete: "Delete"
     comment: "Comment"
@@ -96,9 +97,16 @@ en:
     input_rate: "Input 0 < number <= 10 "
     review_form:
       submit: "Submit"
+    cancle: "Cancle"
+    edit_title: "Edit your review"
     messages:
       create_success: "My review has been sent."
       create_fail: "My review has not been sent."
+      update_success: "My review has been updated"
+      update_fail: "My review has been not updated"
+      delete_success: "My review has been deleted"
+      delete_fail: "My review has not been deleted"
+
   admin:
     categories:
       success: "Create Category Success!"
