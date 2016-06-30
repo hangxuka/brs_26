@@ -83,7 +83,6 @@ en:
       content: "Input content your request"
     show:
       title: "Content your request"
-
   reviews:
     user_review: "List reviews of book "
     created_by: "Created by"
@@ -100,8 +99,6 @@ en:
     messages:
       create_success: "My review has been sent."
       create_fail: "My review has not been sent."
-
-
   admin:
     categories:
       success: "Create Category Success!"
@@ -119,6 +116,11 @@ en:
       sure: "Are you sure?"
       remove: "Delete"
       please_login: "Please Login"
+    request_mailer:
+      request_accepted: "Your request is accepted"
+      success: "Success"
+      fail: "Failed"
+      hello: "Hello "
 
     users:
       table:
