@@ -17,6 +17,7 @@ admin:
     url: "assets/avata.jpg"
 users:
   size: "50x50"
+  size_ava: "100x100"
   url: "/assets/user_3.png"
   pic_size: 5
 reviews:
