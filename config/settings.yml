@@ -4,7 +4,9 @@ books:
   page: 10
   size: "200x250"
   url: "/assets/a4.jpg"
-
+  marked_book:
+    reading: 0
+    read: 1
 admin:
   books:
     page: 10

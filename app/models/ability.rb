@@ -11,6 +11,7 @@ class Ability
       can [:create, :destroy], Request
       can [:create, :edit, :update, :destroy], Review, user_id: user.id
       can [:create], Comment
+      can [:create, :destroy], Mark
     end
   end
 end
