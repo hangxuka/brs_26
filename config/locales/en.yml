@@ -255,3 +255,12 @@ en:
     all: "All User"
     name: "User Name"
     avatar: "Avatar"
+  views:
+    shared:
+      stats:
+        follow: "Follow"
+        unfollow: "Unfollow"
+        viewprofile: "View my profile"
+        title:
+          following: "Following"
+          followers: "Followers"
