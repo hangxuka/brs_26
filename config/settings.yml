@@ -24,3 +24,6 @@ users:
   pic_size: 5
 reviews:
   page: 5
+favorites:
+  page: 2
+  size: "100x100"
