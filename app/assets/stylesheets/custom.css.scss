@@ -201,3 +201,34 @@ input {
 #space{
  height: 20px;
 }
+
+.comments {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .content {
+    display: block;
+    margin-left: 50px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 50px;
+    font-style: italic;
+  }
+  .avatar {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}

@@ -264,3 +264,8 @@ en:
         title:
           following: "Following"
           followers: "Followers"
+  comments:
+    success: "Success"
+    comment: "Comment"
+    commented: "Commented at"
+    ago: "ago"
