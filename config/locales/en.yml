@@ -57,6 +57,9 @@ en:
       my_requests: "My requests"
   users:
     submit: "Submit"
+    list_favorite_books: "List favorite books"
+    list_reading_history: "List reading history"
+    start_read: "updated at "
   books:
     mark_button:
       reading: "Reading"
