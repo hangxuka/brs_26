@@ -29,4 +29,5 @@ Rails.application.routes.draw do
   resources :reviews, except: [:show, :new, :index]
   resources :relationships, only: [:create, :destroy]
   resources :comments, only: [:create]
+  resources :activities, only: [:index, :create]
 end
