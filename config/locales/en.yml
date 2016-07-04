@@ -60,10 +60,16 @@ en:
     list_favorite_books: "List favorite books"
     list_reading_history: "List reading history"
     start_read: "updated at "
+  marks:
+    success: "Success"
+    error: "Error"
   books:
+    favorite: "favorite"
+    unfavorite: "unfavorite"
     mark_button:
       reading: "Reading"
       read: "Read"
+      favorite: "Favorite"
     category: "Category"
     description: "Description"
     review: "Review"
@@ -204,6 +210,9 @@ en:
     general:
       date_format: "YYYY/MM/DD"
     flash:
+      marks:
+        success: "Update success."
+        fails: "Update fails."
       books:
         create_success: "New book has been created."
         updated_success: "Book has been updated."
