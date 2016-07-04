@@ -277,3 +277,5 @@ en:
     comment: "Comment"
     commented: "Commented at"
     ago: "ago"
+    a_new_comment: "A new comment"
+    new_comment: "You have just created a new comment"

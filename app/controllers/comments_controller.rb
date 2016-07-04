@@ -6,6 +6,7 @@ class CommentsController < ApplicationController
     @user = User.find_by id: @comment.user_id
     respond_to do |format|
       if @comment.save
+        SendEmailWorker.perform_async @comment.id
         flash[:success] = t "comments.success"
         format.html{redirect_to :back}
         format.json{
