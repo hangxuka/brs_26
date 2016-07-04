@@ -27,3 +27,15 @@ reviews:
 favorites:
   page: 2
   size: "100x100"
+activity:
+  trackable:
+    review:
+      content: "reviewed a book "
+    comment:
+      content: "commented a review "
+    mark:
+      content: "marked a book "
+    like:
+      content: "liked a activity "
+    relationship:
+      content: "has relationship"

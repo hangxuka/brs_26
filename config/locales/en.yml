@@ -113,6 +113,8 @@ en:
       update_fail: "My review has been not updated"
       delete_success: "My review has been deleted"
       delete_fail: "My review has not been deleted"
+  activities:
+    myactivity: "List activities"
 
   admin:
     categories:
