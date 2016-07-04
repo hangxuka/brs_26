@@ -13,6 +13,7 @@ class Ability
       can [:create], Comment
       can [:create, :destroy], Mark
       can [:create, :destroy], Favorite
+      can [:create, :destroy], Like
     end
   end
 end

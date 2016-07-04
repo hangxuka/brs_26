@@ -285,6 +285,9 @@ en:
         title:
           following: "Following"
           followers: "Followers"
+    users:
+      unlike: "unlike"
+      like: "like"
   comments:
     success: "Success"
     comment: "Comment"
