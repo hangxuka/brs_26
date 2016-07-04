@@ -115,6 +115,8 @@ en:
       delete_fail: "My review has not been deleted"
   activities:
     myactivity: "List activities"
+    new_review: "A new review"
+    create_new_review: "You have just created a new review"
 
   admin:
     categories:

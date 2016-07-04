@@ -1,6 +1,5 @@
 class CommentsController < ApplicationController
   load_and_authorize_resource
-
   def create
     @comment = current_user.comments.build comment_params
     @user = User.find_by id: @comment.user_id
