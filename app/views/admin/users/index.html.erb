@@ -28,7 +28,7 @@
         <td>
           <% if user.avatar.present? %>
             <%= link_to image_tag(user.avatar, size: Settings.admin.users.size),
-              admin_books_path %>
+              admin_users_path %>
           <% else %>
             <%= link_to image_tag(Settings.admin.users.url,
               size: Settings.admin.users.size), admin_users_path %>

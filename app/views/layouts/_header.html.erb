@@ -3,7 +3,7 @@
     <%= link_to link_to t(:app_name), "#", id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to t(:home), root_path %></li>
+        <li><%= link_to t(:home), user_path(current_user) %></li>
         <li><%= link_to t(:help), static_pages_help_path %></li>
         <% if user_signed_in? %>
           <li>

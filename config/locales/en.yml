@@ -109,7 +109,7 @@ en:
     validate_rating: "You must rate with: rate > 0 and rate <10 "
     input_rate: "Input 0 < number <= 10 "
     review_form:
-      submit: "Submit"
+      submitt: "Submit"
     cancle: "Cancle"
     edit_title: "Edit your review"
     messages:

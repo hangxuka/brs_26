@@ -44,6 +44,15 @@ class Book < ActiveRecord::Base
     favorites.find_by user: current_user
   end
 
+def update_rate_avg
+    if self.reviews.size > 0
+      @value =  self.reviews.average(:rating)
+    else
+      @value = 0
+    end
+    update_attributes(rate_avg: @value.to_f)
+  end
+
   private
   def picture_size
     if picture.size > Settings.admin.books.pic_size.megabytes
