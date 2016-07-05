@@ -19,6 +19,7 @@ gem "ransack"
 gem "whenever", require: false
 gem "sdoc",         "0.4.0", group: :doc
 gem "public_activity"
+gem "social-share-button"
 
 group :development, :test do
   gem "sqlite3",     "1.3.9"
