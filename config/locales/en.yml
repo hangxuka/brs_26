@@ -40,6 +40,7 @@ en:
       sign_up_now: "Sign up now!"
       introduce: "This is the home page"
       linkto_framgia: "Framgia Vietnam"
+      my_actions: "My actions"
     help: "This is the help page"
     header:
       account: "Account"
@@ -64,6 +65,8 @@ en:
     success: "Success"
     error: "Error"
   books:
+    author: "Author:"
+    rate_avg: "Rate:"
     favorite: "favorite"
     unfavorite: "unfavorite"
     mark_button:
@@ -171,17 +174,17 @@ en:
         picture: "Picture"
         title: "Title"
         description: "Description"
-        author: "Author"
+        author: "Author:"
         edit: "Edit"
         delete: "Delete"
         number_page: "Number page"
-        rate_avg: "Rate average"
+        rate_avg: "Rate average:"
         publish_date: "Publish date"
         show: "Show"
       new:
         create_book: "Create a new book."
       index:
-      add: "Add a new book"
+      add: "Add book"
       edit:
         edit_book: "Edit a book"
         exit: "Exit"
