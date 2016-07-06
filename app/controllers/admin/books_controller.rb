@@ -28,7 +28,7 @@ class Admin::BooksController < ApplicationController
 
   def update
     if @book.update_attributes book_params
-      flash[:success] = t "application.flash.books.updated_success"
+      flash[:success] = t "application.flash.admin.books.updated_success"
       redirect_to admin_book_path @book
     else
       flash[:error] = t "application.flash.books.updated_error"
