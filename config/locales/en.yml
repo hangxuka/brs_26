@@ -43,6 +43,7 @@ en:
       my_actions: "My actions"
     help: "This is the help page"
     header:
+      my_actions: "My actions"
       account: "Account"
       profile: "Profile"
       setting: "Settings"
@@ -174,11 +175,11 @@ en:
         picture: "Picture"
         title: "Title"
         description: "Description"
-        author: "Author:"
+        author: "Author"
         edit: "Edit"
         delete: "Delete"
         number_page: "Number page"
-        rate_avg: "Rate average:"
+        rate_avg: "Rate average"
         publish_date: "Publish date"
         show: "Show"
       new:
@@ -202,7 +203,7 @@ en:
         accepted: "Accepted request"
         denied: "Denied request"
         waitting: "Waitting"
-      sent_email: "Sent email for user"
+      sent_email: "Accept request"
 
     messages:
       confirm: "Are you sure?"
@@ -210,6 +211,10 @@ en:
   submit: "Submit"
 
   application:
+    admin:
+      books:
+        updated_success: "Book has been updated."
+        updated_error: "Book has not been updated"
     general:
       date_format: "YYYY/MM/DD"
     flash:
