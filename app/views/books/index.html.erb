@@ -31,7 +31,9 @@
       <% end %>
       <h4><%= link_to book.title, book_path(book) %></h4>
       <p><%= t ("books.author") %> <%= book.author %></p>
-      <p><%= t ("books.rate_avg") %> <%= book.rate_avg %></p>
+      <p>
+        <span class="average-review-rating" data-score="<%= book.rate_avg %>"></span>
+      </p>
     </div>
   <% end %>
 </div>
